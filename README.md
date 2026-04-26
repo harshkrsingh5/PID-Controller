@@ -22,7 +22,7 @@ A closed-loop PID-based temperature control system implemented using Arduino and
 
 \## 🧠 Working
 
-The system continuously measures temperature and compares it with a setpoint.  
+The system continuously measures temperature and compares it with a setpoint.
 
 The PID controller adjusts output to minimize error and stabilize temperature.
 
@@ -55,6 +55,24 @@ The PID controller adjusts output to minimize error and stabilize temperature.
 \- Add LCD display
 
 \- Design PCB using KiCad
+
+\## 🖥️ PCB Design
+
+
+
+A custom Arduino-compatible shield was designed using KiCad to integrate the temperature control system.
+
+
+
+\### Features
+
+\- Direct Arduino UNO compatibility
+
+\- Dedicated DHT sensor interface
+
+\- Output control pin (PWM)
+
+\- Compact and modular design
 
 
 
